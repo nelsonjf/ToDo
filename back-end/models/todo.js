@@ -7,7 +7,8 @@ const TodoSchema = new Schema({
         required: true
     },
     done: {
-        tpye: Boolean,
+        type: Boolean,
+        default: false
     },
 })
 
